@@ -1,6 +1,6 @@
 # 30 LeetCode JavaScript Challenges 🚀  
 
-[img](30D_JS.webp)
+![30 Days JavaScript Challenge](30D_JS.jpg)
 ## Overview  
 This repository contains solutions for **30 JavaScript problems** from [LeetCode](https://leetcode.com/) as part of a **30-day coding challenge**. Each problem is solved using **JavaScript**, with explanations and code breakdowns.  
 
