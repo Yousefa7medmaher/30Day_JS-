@@ -18,10 +18,10 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 ## Progress Tracker  
 
 | Day | Problem | Status | Solution |
-|-----|---------|--------|----------|
-| 01  | Create Hello World Function  | ✅ Completed | [Solution](Day1.js) |
-| 02  | Counter  | ⏳ In Progress | [Solution](Day2.js) |
-| ... | ...  | ... | ... |
+|-----|-------------------------------------|--------|--------------|
+| 1  | 2667. Create Hello World Function  | ✅ Completed | [Solution](Day1.js) |
+| 2  | 2620. Counter  | ✅ Completed | [Solution](Day2.js) |
+| 3  | 2704. To Be Or Not To Be | ✅ Completed | [Solution](Day3.js) |
 
 ## Contributions  
 Contributions are welcome! If you have a better solution or improvement, feel free to fork the repo, create a branch, and submit a pull request.  
