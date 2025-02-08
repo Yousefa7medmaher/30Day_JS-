@@ -1,4 +1,5 @@
-30 LeetCode JavaScript Challenges 🚀
+# 30 LeetCode JavaScript Challenges 🚀
+
 Overview
 This repository contains solutions for 30 JavaScript problems from LeetCode as part of a 30-day coding challenge. Each problem is solved using JavaScript, with explanations and code breakdowns.
 
