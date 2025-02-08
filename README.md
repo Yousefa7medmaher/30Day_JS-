@@ -19,9 +19,14 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 
 | Day | Problem | Status | Solution |
 |-----|-------------------------------------|--------|--------------|
-| 1  | 2667. Create Hello World Function  | ✅ Completed | [Solution](Day1.js) |
-| 2  | 2620. Counter  | ✅ Completed | [Solution](Day2.js) |
-| 3  | 2704. To Be Or Not To Be | ✅ Completed | [Solution](Day3.js) |
+| 1  | 2667. Create Hello World Function  | ✅ Completed | [Day1.js](Day1.js) |
+| 2  | 2620. Counter  | ✅ Completed | [Day2.js](Day2.js) |
+| 3  | 2704. To Be Or Not To Be | ✅ Completed | [Day3.js](Day3.js) |
+| 4  | 2665. Counter II | ✅ Completed | [Day4.js](Day4.js) |
+| 5  | 2635. Apply Transform Over Each Element in Array | ✅ Completed | [Day5.js](Day5.js) |
+| 6  | 2634. Filter Elements from Array | ✅ Completed | [Day6.js](Day6.js) |
+| 7  | 2626. Array Reduce Transformation | ✅ Completed | [Day7.js](Day7.js) |
+| 8  | 2629. Function Composition | ✅ Completed | [Day8.js](Day8.js) |
 
 ## Contributions  
 Contributions are welcome! If you have a better solution or improvement, feel free to fork the repo, create a branch, and submit a pull request.  
