@@ -19,8 +19,8 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 
 | Day | Problem | Status | Solution |
 |-----|---------|--------|----------|
-| 01  | Problem Name  | ✅ Completed | [Solution](Day01/solution.js) |
-| 02  | Problem Name  | ⏳ In Progress | [Solution](Day02/solution.js) |
+| 01  | Create Hello World Function  | ✅ Completed | [Solution](Day1.js) |
+| 02  | Counter  | ⏳ In Progress | [Solution](Day2.js) |
 | ... | ...  | ... | ... |
 
 ## Contributions  
