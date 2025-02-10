@@ -29,6 +29,7 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 | 8  | 2629. Function Composition | ✅ Completed | [Day8.js](Day8.js) |
 | 9  | 2703. Return Length of Arguments Passed | ✅ Completed | [Day9.js](Day9.js) |
 | 10  | 2666. Allow One Function Call | ✅ Completed | [Day10.js](Day10.js) |
+| 11  | 2623. Memoize | ✅ Completed | [Day11.js](Day11.js) |
 ## Contributions  
 Contributions are welcome! If you have a better solution or improvement, feel free to fork the repo, create a branch, and submit a pull request.  
 
