@@ -31,6 +31,7 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 | 10  | 2666. Allow One Function Call | ✅ Completed | [Day10.js](Day10.js) |
 | 11  | 2623. Memoize | ✅ Completed | [Day11.js](Day11.js) |
 | 12  | 2723. Add Two Promises | ✅ Completed | [Day12.js](Day12.js) |
+| 13  | 2621. Sleep | ✅ Completed | [Day13.js](Day13.js) |
 ## Contributions  
 Contributions are welcome! If you have a better solution or improvement, feel free to fork the repo, create a branch, and submit a pull request.  
 
