@@ -34,6 +34,7 @@ This repository contains solutions for **30 JavaScript problems** from [LeetCode
 | 13  | 2621. Sleep | ✅ Completed | [Day13.js](Day13.js) |
 | 14  | 2715. Timeout Cancellation | ✅ Completed | [Day14.js](Day14.js) |
 | 15  | 2725. Interval Cancellation | ✅ Completed | [Day15.js](Day15.js) |
+| 16  |  2637. Promise Time Limit | ✅ Completed | [Day16.js](Day16.js) |
 ## Contributions  
 Contributions are welcome! If you have a better solution or improvement, feel free to fork the repo, create a branch, and submit a pull request.  
 
