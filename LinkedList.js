@@ -1,75 +1,95 @@
-
-class Node  { 
-    constructor(data , next = null )  {
-        this.data  = data ;
-        this.next = next ;
+class Node {
+    constructor(data, next = null) {
+        this.data = data;
+        this.next = next;
     }
-
 }
-class LinkedList  { 
-    constructor()  {
-        this.head = null ;
-        this.size = 0 ;
+
+class LinkedList {
+    constructor() {
+        this.head = null;
+        this.size = 0;  
     }
 
-    // insert firstNode 
-    insertFirst(val) { 
-        this.head = new Node(val , this.head) ; 
-        this.size++ ;
+    insertNode(val) {
+        this.head = new Node(val, this.head);
+        this.size++;
     }
 
-    // insert LastNode  
-    insertlast(val) { 
-        let node = new Node(val) ;
-        let Current ;
-        if(!this.head)  {
-            this.head = node;
-        }
-        else {
-            Current = this.head ;
-
-            while(Current.next)  {
-                Current = Current.next ;
+    appendNode(value) {
+        let newnode = new Node(value);
+        if (!this.head) {
+            this.head = newnode;
+        } else {
+            let current = this.head;
+            while (current.next) { 
+                current = current.next;
             }
-            Current.next = node ;
+            current.next = newnode;  
         }
-        this.size++ ;
+        this.size++;   
     }
 
-
-    // insert at Index  
-
-
+    deleteByVal(value) {
+        if (!this.head) return; 
     
-    // Get at Index 
+        let current = this.head;
+     
+        if (current.data === value) {
+            this.head = current.next;
+            this.size--; 
+            return;
+        }
+    
+        let prev = null;
+         
+        while (current && current.data !== value) {
+            prev = current;
+            current = current.next;
+        } 
 
-
-
-    // Remove  at Index 
-
-
-
-
-    // Print all data in linked List 
-        printListData() { 
-            let Current = this.head ;
-            while (Current) {
-                console.log(Current.data);
-                Current = Current.next ;
-                
-            }
+        if (!current) return;  
+        
+        prev.next = current.next;
+        this.size--;  
+    }
+    
+    deleteByIndex(index) {
+        if (!this.head || index < 0 || index >= this.size) return;  
+    
+        let current = this.head;
+     
+        if (index === 0) {
+            this.head = this.head.next;
+            this.size--;  
+            return;
+        }
+    
+        let prev = null;
+     
+        for (let i = 0; i < index; i++) {
+            prev = current;
+            current = current.next;
         }
 
-
-
+        if (prev) prev.next = current.next;  
+        
+        this.size--;  
+    }
+    
+    printAllNodes() {
+        let current = this.head;
+        while (current) {
+            console.log(current.data);
+            current = current.next;
+        }
+    }
 }
-const Joo = new LinkedList() ;
-Joo.insertlast(100) ;
-Joo.insertlast(200) ;
-Joo.insertlast(100) ;
-Joo.insertlast(100) ;
-Joo.insertlast(100) ;
-
-Joo.printListData() ;  
-
-
+ 
+const test = new LinkedList(); 
+test.appendNode(11);
+test.appendNode(10);
+test.appendNode(12);
+test.deleteByVal(12);
+test.deleteByIndex(0);
+test.printAllNodes();
